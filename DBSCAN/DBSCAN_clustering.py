@@ -1,3 +1,9 @@
+################################################################################################
+# This file is used to clustering human cerebellum parcellation using DBSCAN (Density-Based)   #
+# algorithm.                                                                                   #
+# The output file is a .csv file that contains the clustering result for both individual data  #
+# and group-average data.                                                                      #
+################################################################################################
 from sklearn import datasets
 import matplotlib
 from sklearn.cluster import DBSCAN
@@ -17,16 +23,10 @@ print(affinity_matrix.shape, affinity_matrix.min(), affinity_matrix.max())
 # plt.imshow(affinity_matrix, aspect='auto')
 # plt.show()
 
-
-# clustering = SpectralClustering(n_clusters=10,
-#                                 eigen_solver='arpack',
-#                                 affinity="cosine",
-#                                 n_jobs=-1).fit(groupData.transpose())
-
 # # spio.savemat('clusters.mat', {"Y": clustering.labels_})
-clustering = DBSCAN(algorithm='auto', eps=3, leaf_size=30, metric='precomputed',
+clustering = DBSCAN(algorithm='auto', leaf_size=30, metric='precomputed',
                     metric_params=None, min_samples=2, n_jobs=None, p=None).fit(affinity_matrix + 1)
-clustering = DBSCAN()
+
 # clustering = AgglomerativeClustering(n_clusters=10,
 #                                      affinity='manhattan',
 #                                      memory=None,
