@@ -1,6 +1,6 @@
 from sklearn import datasets
 import matplotlib
-from sklearn.cluster import SpectralClustering, AgglomerativeClustering
+from sklearn.cluster import SpectralClustering, AgglomerativeClustering, KMeans
 import matplotlib.pyplot as plt
 import scipy.io as spio
 import numpy as np
@@ -10,7 +10,8 @@ from sklearn.metrics.pairwise import cosine_distances, cosine_similarity
 subj_name = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11',
              's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24',
              's25', 's26', 's27', 's28', 's29', 's30', 's31']
-goodsubj  = [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31]
+# goodsubj = [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31]
+goodsubj = [18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31]
 
 # # ---------------------------- SC 1 ----------------------------- #
 
@@ -34,21 +35,21 @@ for index in range(len(goodsubj)):
     # affinity_matrix_L = cosine_similarity(groupData_L.transpose()) + 1
     # affinity_matrix_R = cosine_similarity(groupData_R.transpose()) + 1
     affinity_matrix = cosine_similarity(groupData.transpose()) + 1
+    # affinity_matrix = np.float32(affinity_matrix)
     # print(affinity_matrix_L.shape, affinity_matrix_L.min(), affinity_matrix_L.max())
     # print(affinity_matrix_R.shape, affinity_matrix_R.min(), affinity_matrix_R.max())
     # Y = pdist(affinity_matrix, 'cosine')
-    outfilename = "../data/betas_cortex/cosine_affinity/affinity_cosine_%s.mat" % sub
-    spio.savemat(outfilename, {"affinity": affinity_matrix})
 
-    # for k in range(7, 31):  # First try the range of cluster's number from 7 to 30
-    #     clustering = SpectralClustering(n_clusters=k, eigen_solver='amg', affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
-    #     # Make the clustering result bestG type
-    #     clustering_result = np.zeros((clustering.labels_.shape[0], 1))
-    #     for i in range(clustering_result.shape[0]):
-    #         clustering_result[i][0] = clustering.labels_[i]
-    #
-    #     outfilename = "../Spectral clustering/cortex_clustering_results/%s/spec_cosine_%d.mat" % (sub, k)
-    #     spio.savemat(outfilename, {"parcel": clustering_result})
+    for k in range(7, 31):  # First try the range of cluster's number from 7 to 30
+        # kmeans_clustering = KMeans(n_clusters=k, n_init=50, )
+        clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
+        # Make the clustering result bestG type
+        clustering_result = np.zeros((clustering.labels_.shape[0], 1))
+        for i in range(clustering_result.shape[0]):
+            clustering_result[i][0] = clustering.labels_[i]
+
+        outfilename = "../Spectral clustering/cortex_clustering_results/%s/spec_cosine_%d.mat" % (sub, k)
+        spio.savemat(outfilename, {"parcel": clustering_result})
 
         # clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', affinity="precomputed", n_jobs=-1).fit(affinity_matrix_L)
         # # Make the clustering result bestG type
@@ -68,7 +69,8 @@ for index in range(len(goodsubj)):
         # outfilename = "../Spectral clustering/cortex_clustering_results/%s/spec_cosine_%d_R.mat" % (sub, k)
         # spio.savemat(outfilename, {"parcel": clustering_result})
 
-#spio.savemat('spec_sc1_bestG.mat', {"bestG": clustering_result})
+
+# spio.savemat('spec_sc1_bestG.mat', {"bestG": clustering_result})
 # np.savetxt("spec_sc1_bestG_affinity_rbf_arpack.csv", clustering.affinity_matrix_, delimiter=',', newline=',')
 # spio.savemat('spec_sc1_bestG_affinity_10nn.mat', {"affinityMatrix": clustering.affinity_matrix_})
 
