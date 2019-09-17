@@ -2,159 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9596ce4-4722-4813-aed5-e1375b621319" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_10_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_10_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_11.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_11_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_11_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_12.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_12_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_12_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_13.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_13_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_13_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_14.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_14_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_14_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_15.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_15_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_15_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_16_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_16_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_17.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_17_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_17_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_18_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_18_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_19.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_19.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_19_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_19_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_20.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_20.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_20_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_20_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_21.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_21.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_21_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_21_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_22.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_22.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_22_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_22_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_23.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_23.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_23_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_23_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_24.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_24.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_24_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_24_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_25.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_25.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_25_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_25_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_26.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_26.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_26_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_26_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_27.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_27.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_27_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_27_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_28.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_28.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_28_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_28_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_29.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_29.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_29_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_29_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_30.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_30.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_30_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_30_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_7_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_7_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_8_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_8_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_9.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_9_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s02/spec_cosine_9_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_10_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_10_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_11.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_11_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_11_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_12.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_12_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_12_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_13.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_13_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_13_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_14.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_14_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_14_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_15.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_15_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_17.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_19.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_19.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_20.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_20.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_21.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_21.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_22.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_22.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_23.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_23.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_24.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_24.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_25.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_25.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_26.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_26.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_27.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_27.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_28.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_28.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_29.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_29.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_30.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_30.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_7_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_7_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_8_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_8_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_9.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_9_L.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s03/spec_cosine_9_R.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_11.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_12.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_13.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_14.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_15.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_17.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_19.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_19.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_20.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_20.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_21.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_21.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_22.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_22.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_23.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_23.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_24.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_24.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_25.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_25.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_26.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_26.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_27.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_27.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_28.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_28.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_29.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_29.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_30.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_30.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s04/spec_cosine_9.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_11.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_12.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_13.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_14.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_15.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_16.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_17.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_18.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_19.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_19.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_20.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_20.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/s06/spec_cosine_9.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_11.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_12.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_13.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_14.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_15.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_16.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_17.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_18.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_19.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_20.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_21.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_22.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_23.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_24.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_25.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_26.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_27.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_28.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_29.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s06.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s08.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s09.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s12.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s14.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s15.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s17.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s18.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s19.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s20.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s21.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s22.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s24.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s25.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s26.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s27.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s28.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s29.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s30.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s31.mat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +58,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/brain_parcellation_project$SC_cortex.coverage" NAME="SC_cortex Coverage Results" MODIFIED="1568394374262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
+    <SUITE FILE_PATH="coverage/brain_parcellation_project$SC_cortex.coverage" NAME="SC_cortex Coverage Results" MODIFIED="1568755225606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$DBSCAN_clustering.coverage" NAME="DBSCAN_clustering Coverage Results" MODIFIED="1556913483676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DBSCAN" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$test.coverage" NAME="test Coverage Results" MODIFIED="1559168699041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$spectralClustering_test.coverage" NAME="spectralClustering_test Coverage Results" MODIFIED="1562869005984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
@@ -191,13 +86,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="883" />
-          <entry key="py" value="1599" />
+          <entry key="Python Console" value="1498" />
+          <entry key="py" value="2371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2482" />
+          <entry key="Python" value="3869" />
         </counts>
       </usages-collector>
     </session>
@@ -207,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="443">
+              <caret line="54" column="60" lean-forward="true" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -333,7 +228,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_surfAnalysisPy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -476,8 +371,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19635193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27575108" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19635193" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27575108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -517,6 +412,21 @@
           <url>file://$PROJECT_DIR$/test.py</url>
           <line>21</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -667,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="443">
+          <caret line="54" column="60" lean-forward="true" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
