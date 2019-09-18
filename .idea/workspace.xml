@@ -3,53 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9596ce4-4722-4813-aed5-e1375b621319" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_10.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_11.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_12.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_13.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_14.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_15.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_16.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_17.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_18.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_19.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_20.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_21.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_22.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_23.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_24.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_25.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_26.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_27.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_28.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_29.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_7.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_8.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/cortex_spec_bestG_9.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s06.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s08.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s09.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s10.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s12.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s14.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s15.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s17.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s18.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s19.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s20.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s21.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s22.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s24.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s25.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s26.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s27.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s28.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s29.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s30.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/betas_cortex/beta_avrg_noInstr_s31.mat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/brain_parcellation_project$SC_cortex.coverage" NAME="SC_cortex Coverage Results" MODIFIED="1568755225606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
+    <SUITE FILE_PATH="coverage/brain_parcellation_project$SC_cortex.coverage" NAME="SC_cortex Coverage Results" MODIFIED="1568850755127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$DBSCAN_clustering.coverage" NAME="DBSCAN_clustering Coverage Results" MODIFIED="1556913483676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DBSCAN" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$test.coverage" NAME="test Coverage Results" MODIFIED="1559168699041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$spectralClustering_test.coverage" NAME="spectralClustering_test Coverage Results" MODIFIED="1562869005984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
@@ -76,23 +29,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="23" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="23" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1498" />
-          <entry key="py" value="2371" />
+          <entry key="Python Console" value="3953" />
+          <entry key="py" value="4260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3869" />
+          <entry key="Python" value="8213" />
         </counts>
       </usages-collector>
     </session>
@@ -102,11 +55,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="54" column="60" lean-forward="true" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+            <state relative-caret-position="302">
+              <caret line="118" column="71" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="71" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
             </state>
           </provider>
         </entry>
@@ -364,7 +335,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,7 +342,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19635193" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27575108" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27145922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,18 +385,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="17" />
+          <line>117</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -468,13 +428,6 @@
           <folding>
             <element signature="e#394#410#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20417">
-          <caret line="1233" selection-start-line="1233" selection-end-line="1233" />
         </state>
       </provider>
     </entry>
@@ -575,10 +528,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="54" column="60" lean-forward="true" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+        <state relative-caret-position="302">
+          <caret line="118" column="71" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="71" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
