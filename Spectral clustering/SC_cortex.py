@@ -111,9 +111,9 @@ for k in range(7, 31):  # First try the range of cluster's number from 7 to 30
     for index in range(len(MAP_R)):
         if MAP_R[index][0] != 0:
             if np.isnan(MAP_R[index][0]):
-                MAP_R[index][0] = parcels_L[parcels_L[:, 1] == index][0][0]
+                MAP_R[index][0] = parcels_R[parcels_R[:, 1] == index][0][0]
             else:
-                MAP_R[index][0] = parcels_L[parcels_L[:, 1] == MAP_R[index][0]][0][0]
+                MAP_R[index][0] = parcels_R[parcels_R[:, 1] == MAP_R[index][0]][0][0]
 
     outfilename = "../Spectral clustering/cortex_clustering_results/group/spec_cosine_sc12_%d.mat" % k
     spio.savemat(outfilename, {"parcels_L": MAP_L, "parcels_R": MAP_R})
