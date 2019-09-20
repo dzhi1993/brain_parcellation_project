@@ -14,15 +14,13 @@ subj_name = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10
              's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24',
              's25', 's26', 's27', 's28', 's29', 's30', 's31']
 goodsubj = [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31]
-resolution = 2562
+resolution = 362
 hem = ['L', 'R']
 
 # # ---------------------------- SC 1 & 2 ----------------------------- #
 # Loading the group averaged data (vertices based)
 mat = spio.loadmat("../data/betas_cortex/vertices/group_beta_noInstr.mat")
 
-MAP_L = []
-MAP_R = []
 groupData_real_L = []
 groupData_real_R = []
 
@@ -81,43 +79,52 @@ for h in range(len(hem)):
         MAP_R = MAP
         groupData_real_R = groupData_noNaN
 
+    del MAP
+
 
 # Parcellation for group averaged data on vertices based space.
+constlookup_L = np.copy(MAP_L)
+constlookup_R = np.copy(MAP_R)
 groupData = np.concatenate((groupData_real_L, groupData_real_R), axis=0)[:, 0:28]
 indices_L = groupData_real_L[:, 29]
 indices_R = groupData_real_R[:, 29]
 affinity_matrix = cosine_similarity(groupData) + 1
 print(affinity_matrix.shape)
 
-for k in range(7, 31):  # First try the range of cluster's number from 7 to 30
+for k in range(7, 8):  # First try the range of cluster's number from 7 to 30
+    # curr_MAP_L = []
+    # curr_MAP_R = []
+    curr_map_L = np.copy(constlookup_L)
+    curr_map_R = np.copy(constlookup_R)
     clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
     # Make the clustering result bestG type
     clustering_result = np.zeros((clustering.labels_.shape[0], 1))
     for i in range(clustering_result.shape[0]):
         clustering_result[i][0] = clustering.labels_[i] + 1
 
-    parcels_L = clustering_result[0:len(groupData_real_L), :]
-    parcels_L = np.concatenate((parcels_L, np.reshape(indices_L, (indices_L.shape[0], 1))), axis=1)  # concatenate the clustering label with original index
-    parcels_R = clustering_result[len(groupData_real_L):len(clustering_result), :]
-    parcels_R = np.concatenate((parcels_R, np.reshape(indices_R, (indices_R.shape[0], 1))), axis=1)  # concatenate the clustering label with original index
+    curr_parcels_L = clustering_result[0:len(groupData_real_L), :]
+    curr_parcels_L = np.concatenate((curr_parcels_L, np.reshape(indices_L, (indices_L.shape[0], 1))), axis=1)  # concatenate the clustering label with original index
+    curr_parcels_R = clustering_result[len(groupData_real_L):len(clustering_result), :]
+    curr_parcels_R = np.concatenate((curr_parcels_R, np.reshape(indices_R, (indices_R.shape[0], 1))), axis=1)  # concatenate the clustering label with original index
 
-    for index in range(len(MAP_L)):
-        if MAP_L[index][0] != 0:
-            if np.isnan(MAP_L[index][0]):
-                MAP_L[index][0] = parcels_L[parcels_L[:, 1] == index][0][0]
+    for index in range(len(curr_map_L)):
+        if curr_map_L[index][0] != 0:
+            if np.isnan(curr_map_L[index][0]):
+                curr_map_L[index][0] = curr_parcels_L[curr_parcels_L[:, 1] == index][0][0]
             else:
-                MAP_L[index][0] = parcels_L[parcels_L[:, 1] == MAP_L[index][0]][0][0]
+                curr_map_L[index][0] = curr_parcels_L[curr_parcels_L[:, 1] == curr_map_L[index][0]][0][0]
 
-    for index in range(len(MAP_R)):
-        if MAP_R[index][0] != 0:
-            if np.isnan(MAP_R[index][0]):
-                MAP_R[index][0] = parcels_R[parcels_R[:, 1] == index][0][0]
+    for index in range(len(curr_map_R)):
+        if curr_map_R[index][0] != 0:
+            if np.isnan(curr_map_R[index][0]):
+                curr_map_R[index][0] = curr_parcels_R[curr_parcels_R[:, 1] == index][0][0]
             else:
-                MAP_R[index][0] = parcels_R[parcels_R[:, 1] == MAP_R[index][0]][0][0]
+                curr_map_R[index][0] = curr_parcels_R[curr_parcels_R[:, 1] == curr_map_R[index][0]][0][0]
 
     outfilename = "../Spectral clustering/cortex_clustering_results/group/spec_cosine_sc12_%d.mat" % k
-    spio.savemat(outfilename, {"parcels_L": MAP_L, "parcels_R": MAP_R})
+    spio.savemat(outfilename, {"parcels_L": curr_map_L, "parcels_R": curr_map_R})
 
+    del curr_map_R, curr_map_L, curr_parcels_L, curr_parcels_R
 
 # # ---------------------------  Parcellation for each subject ------------------------------ #
 # for index in range(len(goodsubj)):
