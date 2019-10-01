@@ -14,7 +14,7 @@ subj_name = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10
              's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24',
              's25', 's26', 's27', 's28', 's29', 's30', 's31']
 goodsubj = [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31]
-resolution = 10242
+resolution = 2562
 hem = ['L', 'R']
 D = ['A', 'B']
 
@@ -131,9 +131,10 @@ D = ['A', 'B']
 # # ---------------------------  Parcellation for group average ------------------------------ #
 
 # Loading the group averaged beta values (vertices based)
-mat = spio.loadmat("../data/betas_cortex/vertices/group_beta_noInstr.mat")
-# mat = spio.loadmat("../data/betas_cortex/vertices/group_swcon.mat")
-raw_groupData = np.concatenate((mat['avrgBeta_sc12_L'], mat['avrgBeta_sc12_R']), axis=0)
+# mat = spio.loadmat("../data/betas_cortex/vertices/group_beta_noInstr.mat")
+# raw_groupData = np.concatenate((mat['avrgBeta_sc12_L'], mat['avrgBeta_sc12_R']), axis=0)
+mat = spio.loadmat("../data/betas_cortex/vertices/group_swcon.mat")
+raw_groupData = np.concatenate((mat['A'], mat['B']), axis=0)
 
 MAP_L = np.empty((32492, 1))
 MAP_L[:] = np.nan
@@ -148,15 +149,18 @@ for h in range(len(hem)):
     gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.%s.label.gii" % (resolution, hem[h]))
     img_data = [x.data for x in gifti_image.darrays]
     labels = np.reshape(img_data, (len(img_data[0]), 1))
-    nanIndex = np.where(labels == 0)[0]
-    # nanIndex = np.reshape(nanIndex, (len(nanIndex), 1))
+    ico_nanIndex = np.where(labels == 0)[0]
 
+    mw_nanIndex = spio.loadmat(wb_dir + "medialWallIndex_%s.mat" % hem[h])['mwIdx'] - 1
+    mw_nanIndex = np.reshape(mw_nanIndex, (len(mw_nanIndex), ))
+
+    nanIndex = np.union1d(ico_nanIndex, mw_nanIndex)
     # Loading data
-    # groupData = mat[D[h]]
-    groupData = mat['avrgBeta_sc12_%s' % hem[h]]
-    nanIdx = mat['nanIndex_%s' % hem[h]] - 1
-    nanIdx = np.reshape(nanIdx, (nanIdx.shape[0], ))
-    nanIndex = np.concatenate((nanIndex, nanIdx[~np.isin(nanIdx, nanIndex)]))
+    groupData = np.copy(mat[D[h]])
+    # groupData = mat['avrgBeta_sc12_%s' % hem[h]]
+    # nanIdx = mat['nanIndex_%s' % hem[h]] - 1
+    # nanIdx = np.reshape(nanIdx, (nanIdx.shape[0], ))
+    # nanIndex = np.concatenate((nanIndex, nanIdx[~np.isin(nanIdx, nanIndex)]))
 
     verticesIdx = np.reshape(np.arange(len(groupData)), (len(groupData), 1))
     groupData_labels = np.concatenate((groupData, labels, verticesIdx), axis=1)
@@ -188,11 +192,12 @@ groupData = np.concatenate((groupData_L, groupData_R), axis=0)
 affinity_matrix = cosine_similarity(groupData) + 1
 print(affinity_matrix.shape)
 
-for k in range(7, 8):
+for k in range(17, 18):
+    print('Running cluster %d ...' % k)
     curr_map_L = np.copy(MAP_L)
     curr_map_R = np.copy(MAP_R)
     curr_map = np.concatenate((curr_map_L, curr_map_R), axis=0)
-    clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=30, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
+    clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
     # Make the clustering result bestG type
     clustering_result = clustering.labels_ + 1
 
