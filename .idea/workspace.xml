@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a9596ce4-4722-4813-aed5-e1375b621319" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.L.label.gii" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.L.label.gii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.R.label.gii" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.R.label.gii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/spec_cosine_sc12_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/spec_cosine_sc12_7.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +27,8 @@
           <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.3" value="8" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="211" column="35" selection-start-line="211" selection-start-column="35" selection-end-line="211" selection-end-column="35" />
+            <state relative-caret-position="1282">
+              <caret line="211" column="79" lean-forward="true" selection-start-line="211" selection-start-column="79" selection-end-line="211" selection-end-column="79" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -67,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28271">
+            <state relative-caret-position="517">
               <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
             </state>
           </provider>
@@ -85,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5270">
+            <state relative-caret-position="238">
               <caret line="310" selection-start-line="310" selection-end-line="310" />
             </state>
           </provider>
@@ -94,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
+            <state relative-caret-position="263">
               <caret line="222" selection-start-line="222" selection-end-line="222" />
             </state>
           </provider>
@@ -103,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4165">
+            <state relative-caret-position="204">
               <caret line="256" selection-start-line="256" selection-end-line="256" />
             </state>
           </provider>
@@ -112,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="213">
               <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
@@ -121,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25024">
+            <state relative-caret-position="204">
               <caret line="1504" selection-start-line="1504" selection-end-line="1504" />
             </state>
           </provider>
@@ -130,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/numeric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8891">
+            <state relative-caret-position="222">
               <caret line="543" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
@@ -139,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/pairwise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14892">
+            <state relative-caret-position="550">
               <caret line="895" selection-start-line="895" selection-end-line="895" />
               <folding>
                 <element signature="e#394#410#0" expanded="true" />
@@ -183,7 +187,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -194,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,10 +364,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -580,26 +583,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3927">
           <caret line="239" column="21" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Semi_NMF.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="211" column="35" selection-start-line="211" selection-start-column="35" selection-end-line="211" selection-end-column="35" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#72#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/Semi_NMF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28271">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/pairwise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="895" selection-start-line="895" selection-end-line="895" />
+          <folding>
+            <element signature="e#394#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1504" selection-start-line="1504" selection-end-line="1504" />
         </state>
       </provider>
     </entry>
@@ -610,54 +657,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5270">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="517">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
+    <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3740">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25024">
-          <caret line="1504" selection-start-line="1504" selection-end-line="1504" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8891">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/pairwise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14892">
-          <caret line="895" selection-start-line="895" selection-end-line="895" />
+        <state relative-caret-position="1282">
+          <caret line="211" column="79" lean-forward="true" selection-start-line="211" selection-start-column="79" selection-end-line="211" selection-end-column="79" />
           <folding>
-            <element signature="e#394#410#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
