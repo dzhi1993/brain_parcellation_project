@@ -10,7 +10,7 @@ import nibabel as nb
 from nibabel.gifti import giftiio
 
 wb_dir = "D:/data/sc1/surfaceWB/group32k/"
-idv_dir = "Z:/data/super_cerebellum_new/sc1/surfaceWB/"
+idv_dir = "D:/python_workspace/brain_parcellation_project/data/"
 subj_name = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11',
              's12', 's13', 's14', 's15', 's16', 's17', 's18', 's19', 's20', 's21', 's22', 's23', 's24',
              's25', 's26', 's27', 's28', 's29', 's30', 's31']
@@ -18,170 +18,175 @@ goodsubj = [2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 24, 25, 26
 resolution = 2562
 hem = ['L', 'R']
 D = ['A', 'B']
+exp = [1, 2]
 
 # # ---------------------------  Parcellation for each subject ------------------------------ #
 # Find the index of medial wall
-gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.L.label.gii" % resolution)
-img_data = [x.data for x in gifti_image.darrays]
-labels = np.reshape(img_data, (len(img_data[0]), 1))
-nanIndex_L = np.where(labels == 0)[0]
-
-gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.R.label.gii" % resolution)
-img_data = [x.data for x in gifti_image.darrays]
-labels = np.reshape(img_data, (len(img_data[0]), 1))
-nanIndex_R = np.where(labels == 0)[0]
-
-# Making medial wall mask 32k
-MAP_L = np.empty((32492, 1))
-MAP_L[:] = np.nan
-MAP_L[nanIndex_L, :] = 0
-
-MAP_R = np.empty((32492, 1))
-MAP_R[:] = np.nan
-MAP_R[nanIndex_R, :] = 0
-MAP = np.concatenate((MAP_L, MAP_R), axis=0)
-
-# Main loop
-for sub in range(len(goodsubj)):
-    Data_L = []
-    Data_R = []
-    rawData_L = []
-    rawData_R = []
-    for h in range(len(hem)):
-        # Loading data
-        gifti_data = nb.load(idv_dir + subj_name[goodsubj[sub]-1] + "/%s.%s.swcon.32k.func.gii" % (subj_name[goodsubj[sub]-1], hem[h]))
-        img_data = [x.data for x in gifti_data.darrays]
-        data = np.reshape(img_data, (len(img_data), len(img_data[0])))
-        groupData = data.transpose()
-
-        verticesIdx = np.reshape(np.arange(len(groupData)), (len(groupData), 1))
-        groupData_labels = np.concatenate((groupData, labels, verticesIdx), axis=1)
-        # groupData_noNaN = np.delete(groupData_labels, nanIndex, 0)
-
-        groupData_reduced = np.empty((1, groupData.shape[1]))
-        groupData_reduced[:] = np.nan
-        for ico in np.unique(labels[:, 0]):
-            if ico != 0:
-                curr_tessellation = groupData_labels[groupData_labels[:, groupData.shape[1]] == ico]
-                if curr_tessellation.shape[0] != 0:
-                    curr_avrg = np.reshape(curr_tessellation[:, 0:groupData.shape[1]].mean(0), (1, groupData.shape[1]))
-                    groupData_reduced = np.append(groupData_reduced, curr_avrg, axis=0)
-
-        groupData_reduced = np.delete(groupData_reduced, 0, 0)
-
-        if h == 0:
-            Data_L = np.copy(groupData_reduced)
-            rawData_L = np.copy(groupData)
-        elif h == 1:
-            Data_R = np.copy(groupData_reduced)
-            rawData_R = np.copy(groupData)
-
-    groupData = np.concatenate((Data_L, Data_R), axis=0)
-    raw_groupData = np.concatenate((rawData_L, rawData_R), axis=0)
-    affinity_matrix = cosine_similarity(groupData) + 1
-    print(affinity_matrix.shape)
-
-    for k in range(30, 31):
-        print('Running cluster %d ...' % k + 'for subject %d.' % goodsubj[sub])
-        curr_map = np.copy(MAP)
-        clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
-        # Make the clustering result bestG type
-        clustering_result = clustering.labels_ + 1
-
-        raw_groupData[np.isnan(raw_groupData)] = 0
-        lookupTable = cosine_similarity(raw_groupData, groupData) + 1
-
-        for idx in range(len(raw_groupData)):
-            this_label = clustering_result[np.argmax(lookupTable[idx])]
-            if np.isnan(curr_map[idx][0]):
-                curr_map[idx][0] = this_label
-
-        parcels = np.split(curr_map, 2)
-        parcels_L = parcels[0]
-        parcels_R = parcels[1]
-
-        outfilename = "../Spectral clustering/cortex_clustering_results/%s/spec_cosine_%d.mat" % (subj_name[goodsubj[sub]-1], k)
-        spio.savemat(outfilename, {"parcels_L": parcels_L, "parcels_R": parcels_R})
-
-# # ---------------------------  Parcellation for group average ------------------------------ #
-# mat = spio.loadmat("../data/betas_cortex/vertices/group_swcon.mat")
-# raw_groupData = np.concatenate((mat['A'], mat['B']), axis=0)
+# gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.L.label.gii" % resolution)
+# img_data = [x.data for x in gifti_image.darrays]
+# labels = np.reshape(img_data, (len(img_data[0]), 1))
+# nanIndex_L = np.where(labels == 0)[0]
 #
+# gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.R.label.gii" % resolution)
+# img_data = [x.data for x in gifti_image.darrays]
+# labels = np.reshape(img_data, (len(img_data[0]), 1))
+# nanIndex_R = np.where(labels == 0)[0]
+#
+# # Making medial wall mask 32k
 # MAP_L = np.empty((32492, 1))
 # MAP_L[:] = np.nan
+# MAP_L[nanIndex_L, :] = 0
 #
 # MAP_R = np.empty((32492, 1))
 # MAP_R[:] = np.nan
-# groupData_L = []
-# groupData_R = []
+# MAP_R[nanIndex_R, :] = 0
+# MAP = np.concatenate((MAP_L, MAP_R), axis=0)
 #
-# for h in range(len(hem)):
-#     # Find the index of medial wall
-#     gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.%s.label.gii" % (resolution, hem[h]))
-#     img_data = [x.data for x in gifti_image.darrays]
-#     labels = np.reshape(img_data, (len(img_data[0]), 1))
-#     nanIndex = np.where(labels == 0)[0]
+# # Main loop
+# for sub in range(len(goodsubj)):
+#     for ts in exp:
+#         Data_L = []
+#         Data_R = []
+#         rawData_L = []
+#         rawData_R = []
+#         for h in range(len(hem)):
+#             # Loading data
+#             mat = spio.loadmat(idv_dir + subj_name[goodsubj[sub]-1] + "/%s.%s.swcon.exp%d.32k.mat" % (subj_name[goodsubj[sub]-1], hem[h], ts))
+#             groupData = mat['data']
+#             # gifti_data = nb.load(idv_dir + subj_name[goodsubj[sub]-1] + "/%s.%s.swcon.32k.func.gii" % (subj_name[goodsubj[sub]-1], hem[h]))
+#             # img_data = [x.data for x in gifti_data.darrays]
+#             # data = np.reshape(img_data, (len(img_data), len(img_data[0])))
+#             # groupData = data.transpose()
 #
-#     # Loading data
-#     groupData = np.copy(mat[D[h]])
-#     # groupData = mat['avrgBeta_sc12_%s' % hem[h]]
-#     # nanIdx = mat['nanIndex_%s' % hem[h]] - 1
-#     # nanIdx = np.reshape(nanIdx, (nanIdx.shape[0], ))
-#     # nanIndex = np.concatenate((nanIndex, nanIdx[~np.isin(nanIdx, nanIndex)]))
+#             verticesIdx = np.reshape(np.arange(len(groupData)), (len(groupData), 1))
+#             groupData_labels = np.concatenate((groupData, labels, verticesIdx), axis=1)
+#             # groupData_noNaN = np.delete(groupData_labels, nanIndex, 0)
 #
-#     verticesIdx = np.reshape(np.arange(len(groupData)), (len(groupData), 1))
-#     groupData_labels = np.concatenate((groupData, labels, verticesIdx), axis=1)
-#     groupData_noNaN = np.delete(groupData_labels, nanIndex, 0)
+#             groupData_reduced = np.empty((1, groupData.shape[1]))
+#             groupData_reduced[:] = np.nan
+#             for ico in np.unique(labels[:, 0]):
+#                 if ico != 0:
+#                     curr_tessellation = groupData_labels[groupData_labels[:, groupData.shape[1]] == ico]
+#                     if curr_tessellation.shape[0] != 0:
+#                         curr_avrg = np.reshape(curr_tessellation[:, 0:groupData.shape[1]].mean(0), (1, groupData.shape[1]))
+#                         groupData_reduced = np.append(groupData_reduced, curr_avrg, axis=0)
 #
-#     if h == 0:
-#         MAP_L[nanIndex, :] = 0
-#     elif h == 1:
-#         MAP_R[nanIndex, :] = 0
+#             groupData_reduced = np.delete(groupData_reduced, 0, 0)
 #
-#     groupData_reduced = np.empty((1, groupData.shape[1]))
-#     groupData_reduced[:] = np.nan
-#     for ico in np.unique(labels[:, 0]):
-#         if ico != 0:
-#             curr_tessellation = groupData_noNaN[groupData_noNaN[:, groupData.shape[1]] == ico]
-#             if curr_tessellation.shape[0] != 0:
-#                 curr_avrg = np.reshape(curr_tessellation[:, 0:groupData.shape[1]].mean(0), (1, groupData.shape[1]))
-#                 groupData_reduced = np.append(groupData_reduced, curr_avrg, axis=0)
+#             if h == 0:
+#                 Data_L = np.copy(groupData_reduced)
+#                 rawData_L = np.copy(groupData)
+#             elif h == 1:
+#                 Data_R = np.copy(groupData_reduced)
+#                 rawData_R = np.copy(groupData)
 #
-#     groupData_reduced = np.delete(groupData_reduced, 0, 0)
+#         groupData = np.concatenate((Data_L, Data_R), axis=0)
+#         raw_groupData = np.concatenate((rawData_L, rawData_R), axis=0)
+#         affinity_matrix = cosine_similarity(groupData) + 1
+#         print(affinity_matrix.shape)
 #
-#     if h == 0:
-#         groupData_L = np.copy(groupData_reduced)
-#     elif h == 1:
-#         groupData_R = np.copy(groupData_reduced)
+#         for k in range(7, 31):
+#             print('Running cluster %d ...' % k + 'for subject %d ' % goodsubj[sub] + 'of experiment %d.' % ts)
+#             curr_map = np.copy(MAP)
+#             clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
+#             # Make the clustering result bestG type
+#             clustering_result = clustering.labels_ + 1
 #
-# groupData = np.concatenate((groupData_L, groupData_R), axis=0)
+#             raw_groupData[np.isnan(raw_groupData)] = 0
+#             lookupTable = cosine_similarity(raw_groupData, groupData) + 1
 #
-# affinity_matrix = cosine_similarity(groupData) + 1
-# print(affinity_matrix.shape)
+#             for idx in range(len(raw_groupData)):
+#                 this_label = clustering_result[np.argmax(lookupTable[idx])]
+#                 if np.isnan(curr_map[idx][0]):
+#                     curr_map[idx][0] = this_label
 #
-# for k in range(7, 30):
-#     print('Running cluster %d ...' % k)
-#     curr_map_L = np.copy(MAP_L)
-#     curr_map_R = np.copy(MAP_R)
-#     curr_map = np.concatenate((curr_map_L, curr_map_R), axis=0)
-#     clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=50, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
-#     # Make the clustering result bestG type
-#     clustering_result = clustering.labels_ + 1
+#             parcels = np.split(curr_map, 2)
+#             parcels_L = parcels[0]
+#             parcels_R = parcels[1]
 #
-#     raw_groupData[np.isnan(raw_groupData)] = 0
-#     lookupTable = cosine_similarity(raw_groupData, groupData) + 1
-#
-#     for idx in range(len(raw_groupData)):
-#         this_label = clustering_result[np.argmax(lookupTable[idx])]
-#         if np.isnan(curr_map[idx][0]):
-#             curr_map[idx][0] = this_label
-#
-#     parcels = np.split(curr_map, 2)
-#     parcels_L = parcels[0]
-#     parcels_R = parcels[1]
-#
-#     outfilename = "../Spectral clustering/cortex_clustering_results/group/spec_cosine_sc12_%d.mat" % k
-#     spio.savemat(outfilename, {"parcels_L": parcels_L, "parcels_R": parcels_R})
+#             outfilename = "../Spectral clustering/subject_clustering_results/sc%d/%s/spec_cosine_sc%d_all_%d.mat" % (ts, subj_name[goodsubj[sub]-1], ts, k)
+#             spio.savemat(outfilename, {"parcels_L": parcels_L, "parcels_R": parcels_R})
+
+# # ---------------------------  Parcellation for group average ------------------------------ #
+mat = spio.loadmat("../data/betas_cortex/vertices/group_swcon.mat")
+raw_groupData = np.concatenate((mat['A'], mat['B']), axis=0)
+raw_groupData = raw_groupData[:, 29:62]
+
+MAP_L = np.empty((32492, 1))
+MAP_L[:] = np.nan
+
+MAP_R = np.empty((32492, 1))
+MAP_R[:] = np.nan
+groupData_L = []
+groupData_R = []
+
+for h in range(len(hem)):
+    # Find the index of medial wall
+    gifti_image = nb.load(wb_dir + "Icosahedron-%d.32k.%s.label.gii" % (resolution, hem[h]))
+    img_data = [x.data for x in gifti_image.darrays]
+    labels = np.reshape(img_data, (len(img_data[0]), 1))
+    nanIndex = np.where(labels == 0)[0]
+
+    # Loading data
+    groupData = np.copy(mat[D[h]][:, 29:62])
+    # groupData = mat['avrgBeta_sc12_%s' % hem[h]]
+    # nanIdx = mat['nanIndex_%s' % hem[h]] - 1
+    # nanIdx = np.reshape(nanIdx, (nanIdx.shape[0], ))
+    # nanIndex = np.concatenate((nanIndex, nanIdx[~np.isin(nanIdx, nanIndex)]))
+
+    verticesIdx = np.reshape(np.arange(len(groupData)), (len(groupData), 1))
+    groupData_labels = np.concatenate((groupData, labels, verticesIdx), axis=1)
+    groupData_noNaN = np.delete(groupData_labels, nanIndex, 0)
+
+    if h == 0:
+        MAP_L[nanIndex, :] = 0
+    elif h == 1:
+        MAP_R[nanIndex, :] = 0
+
+    groupData_reduced = np.empty((1, groupData.shape[1]))
+    groupData_reduced[:] = np.nan
+    for ico in np.unique(labels[:, 0]):
+        if ico != 0:
+            curr_tessellation = groupData_noNaN[groupData_noNaN[:, groupData.shape[1]] == ico]
+            if curr_tessellation.shape[0] != 0:
+                curr_avrg = np.reshape(curr_tessellation[:, 0:groupData.shape[1]].mean(0), (1, groupData.shape[1]))
+                groupData_reduced = np.append(groupData_reduced, curr_avrg, axis=0)
+
+    groupData_reduced = np.delete(groupData_reduced, 0, 0)
+
+    if h == 0:
+        groupData_L = np.copy(groupData_reduced)
+    elif h == 1:
+        groupData_R = np.copy(groupData_reduced)
+
+groupData = np.concatenate((groupData_L, groupData_R), axis=0)
+
+affinity_matrix = cosine_similarity(groupData) + 1
+print(affinity_matrix.shape)
+
+for k in range(7, 31):
+    print('Running cluster %d ...' % k)
+    curr_map_L = np.copy(MAP_L)
+    curr_map_R = np.copy(MAP_R)
+    curr_map = np.concatenate((curr_map_L, curr_map_R), axis=0)
+    clustering = SpectralClustering(n_clusters=k, eigen_solver='arpack', n_init=100, affinity="precomputed", n_jobs=-1).fit(affinity_matrix)
+    # Make the clustering result bestG type
+    clustering_result = clustering.labels_ + 1
+
+    raw_groupData[np.isnan(raw_groupData)] = 0
+    lookupTable = cosine_similarity(raw_groupData, groupData) + 1
+
+    for idx in range(len(raw_groupData)):
+        this_label = clustering_result[np.argmax(lookupTable[idx])]
+        if np.isnan(curr_map[idx][0]):
+            curr_map[idx][0] = this_label
+
+    parcels = np.split(curr_map, 2)
+    parcels_L = parcels[0]
+    parcels_R = parcels[1]
+
+    outfilename = "../Spectral clustering/cortex_clustering_results/group/sc2/spec_cosine_sc2_%d.mat" % k
+    spio.savemat(outfilename, {"parcels_L": parcels_L, "parcels_R": parcels_R})
 
 
 # # Test different eigen_solver
