@@ -3,56 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a9596ce4-4722-4813-aed5-e1375b621319" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.R.label.gii" beforeDir="false" afterPath="$PROJECT_DIR$/Spectral clustering/cortex_clustering_results/group/labelGii/Spec_7.32k.R.label.gii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub02_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub03_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub04_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub06_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub08_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub09_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub10_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub12_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub14_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub15_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub17_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub18_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub19_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub20_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub21_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub22_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub24_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub25_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub26_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub27_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub28_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub29_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub30_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc1/spec_sub31_sc1_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub02_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub03_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub04_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub06_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub08_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub09_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub10_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub12_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub14_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub15_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub17_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub18_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub19_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub20_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub21_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub22_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub24_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub25_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub26_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub27_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub28_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub29_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub30_sc2_bestG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spectral clustering/subject_clustering_results/sc2/spec_sub31_sc2_bestG.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,51 +14,58 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/brain_parcellation_project$SC_cortex.coverage" NAME="SC_cortex Coverage Results" MODIFIED="1570832710354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
+    <SUITE FILE_PATH="coverage/brain_parcellation_project$AC_cortex.coverage" NAME="AC_cortex Coverage Results" MODIFIED="1572465756067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agglomerative clustering" />
+    <SUITE FILE_PATH="coverage/brain_parcellation_project$randomField.coverage" NAME="randomField Coverage Results" MODIFIED="1575393092454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$DBSCAN_clustering.coverage" NAME="DBSCAN_clustering Coverage Results" MODIFIED="1556913483676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DBSCAN" />
-    <SUITE FILE_PATH="coverage/brain_parcellation_project$test.coverage" NAME="test Coverage Results" MODIFIED="1559168699041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/brain_parcellation_project$test.coverage" NAME="test Coverage Results" MODIFIED="1572385223602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/brain_parcellation_project$spectralClustering_test.coverage" NAME="spectralClustering_test Coverage Results" MODIFIED="1562869005984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spectral clustering" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1173381351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.3" value="9" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="58" />
+          <entry key="md" value="1" />
+          <entry key="py" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="58" />
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="7202" />
-          <entry key="py" value="6724" />
+          <entry key="Python Console" value="7506" />
+          <entry key="md" value="908" />
+          <entry key="py" value="6961" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13926" />
+          <entry key="Markdown" value="908" />
+          <entry key="Python" value="14467" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agglomerative clustering/AC_cortex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="2397">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -115,10 +74,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/shape_base.py">
+        <entry file="file://$PROJECT_DIR$/evaluation/randomField.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9163">
-              <caret line="551" selection-start-line="551" selection-end-line="551" />
+            <state relative-caret-position="534">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="323">
+                <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -144,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3706">
+            <state relative-caret-position="3655">
               <caret line="220" selection-start-line="220" selection-end-line="220" />
             </state>
           </provider>
@@ -153,47 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4165">
+            <state relative-caret-position="4114">
               <caret line="256" selection-start-line="256" selection-end-line="256" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/_methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/metrics/pairwise.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14892">
-              <caret line="895" selection-start-line="895" selection-end-line="895" />
-              <folding>
-                <element signature="e#394#410#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/function_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25024">
-              <caret line="1504" selection-start-line="1504" selection-end-line="1504" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/numeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8007">
-              <caret line="491" selection-start-line="491" selection-end-line="491" />
             </state>
           </provider>
         </entry>
@@ -221,9 +165,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DBSCAN/DBSCAN_clustering.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Spectral clustering/spectralClustering_test.py" />
         <option value="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/agglomerative clustering/AC_cortex.py" />
+        <option value="$PROJECT_DIR$/evaluation/randomField.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -234,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-12" />
+    <option name="y" value="-20" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -244,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,27 +201,18 @@
             <path>
               <item name="brain_parcellation_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="brain_parcellation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="DBSCAN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brain_parcellation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brain_parcellation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="EM&amp;K-means clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brain_parcellation_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brain_parcellation_project" type="462c0819:PsiDirectoryNode" />
-              <item name="Spectral clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Dropbox/search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -292,8 +229,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SC_cortex">
-    <configuration name="DBSCAN_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.randomField">
+    <configuration name="AC_cortex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="brain_parcellation_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +238,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DBSCAN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/agglomerative clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DBSCAN/DBSCAN_clustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/agglomerative clustering/AC_cortex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,6 +266,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spectral clustering/SC_cortex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="randomField" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="brain_parcellation_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/randomField.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,17 +341,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DBSCAN_clustering" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.spectralClustering_test" />
       <item itemvalue="Python.SC_cortex" />
+      <item itemvalue="Python.AC_cortex" />
+      <item itemvalue="Python.randomField" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.randomField" />
+        <item itemvalue="Python.AC_cortex" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.SC_cortex" />
         <item itemvalue="Python.spectralClustering_test" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.DBSCAN_clustering" />
       </list>
     </recent_temporary>
   </component>
@@ -411,14 +372,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29935622" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21351932" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19313304" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3090129" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -431,7 +393,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.17857143" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -479,6 +441,21 @@
           <line>112</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/agglomerative clustering/AC_cortex.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/randomField.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -495,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4386">
           <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -649,46 +619,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spectral clustering/SC_cortex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="439">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9163">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/nibabel/loadsave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3706">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
         </state>
       </provider>
     </entry>
@@ -720,6 +655,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8007">
           <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/nibabel/loadsave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/lib/arraysetops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/randomField.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agglomerative clustering/AC_cortex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
