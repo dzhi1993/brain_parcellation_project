@@ -21,6 +21,44 @@ def debug(*args, **kwargs):
         print(*args, **kwargs)
 
 
+def sample_GMM(dims=2, n_sample=500, components=5, sample_assignment=None, normalize=True):
+    '''
+    Generate random samples from N gaussian mixtures
+    :param dims: the dimensions of returned data sample, default = 2
+    :param n_sample: the number of returned data sample
+    :param components: the number of GMM used to sample data
+    :param sample_assignment: the weights of each GMM of the
+           total number of samples
+
+    :return: data samples from n GMMs, shape = [n_sample, dims]
+    '''
+    data = np.empty([1, dims])
+    if sample_assignment is None:
+        a = np.random.dirichlet(np.ones(components))
+        nums = np.rint(n_sample * a[:-1])
+        nums = np.append(nums, n_sample-nums.sum()).astype('int')
+    else:
+        nums = np.rint(n_sample * sample_assignment).astype('int')
+
+    mu, cov, data_classified = [], [], []
+    for i in range(components):
+        this_mu = np.random.uniform(-1, 1, dims)
+        A = np.random.rand(dims, dims)
+        this_cov = np.mat(np.dot(A, A.transpose()))
+        this_data = np.random.multivariate_normal(this_mu, this_cov, nums[i])
+        data = np.vstack((data, this_data))
+        mu.append(this_mu)
+        cov.append(this_cov)
+        data_classified.append(this_data)
+
+    data = np.delete(data, 0, axis=0)
+    if normalize:
+        data = 2. * (data - np.min(data)) / np.ptp(data) - 1
+        return np.asarray(mu), np.asarray(cov), data, data_classified
+    else:
+        return np.asarray(mu), np.asarray(cov), data, data_classified
+
+
 # -------------------------------------------------------------------
 # Calculate the normal of probability of Xn given mu and covariance
 # for the kth model using function 'multivariate_normal', this
@@ -168,35 +206,46 @@ if __name__ == "__main__":
     DEBUG = True  # debugging mode flag
 
     # Load data from .mat file as array-like data
-    mat = spio.loadmat("mixtureData.mat")
-    Y = mat['Y']
-    print(Y.shape)
-    matY = np.matrix(Y, copy=True)
+    # mat = spio.loadmat("mixtureData.mat")
+    # Y = mat['Y']
+    # print(Y.shape)
+    # matY = np.matrix(Y, copy=True)
+
+    # Generate random samples from N gaussian mixtures
+    prior_mu, prior_cov, matY, Y_class = sample_GMM(dims=2, n_sample=100, components=3)
+    matY = np.matrix(matY, copy=True)
 
     # the main entry of EM algorithm for mixture model, to change the k
-    mu, cov, pi, loglikelihoods = MM_EM(matY, 3, 100)
+    k = 3
+    mu, cov, pi, loglikelihoods = MM_EM(matY, k, 100)
 
     # get the final gamma for clustering
-    N = Y.shape[0]
+    N = matY.shape[0]
     gamma, likelihood = Expectation(matY, mu, cov, pi)
     category = gamma.argmax(axis=1).flatten().tolist()[0]
+
     # Separating all data point into k clusters and store them
-    class1 = np.array([Y[i] for i in range(N) if category[i] == 0])
-    class2 = np.array([Y[i] for i in range(N) if category[i] == 1])
-    class3 = np.array([Y[i] for i in range(N) if category[i] == 2])
+    category = np.asarray(category)
 
     # Plot results
-    plt.figure()
-    #plt.subplot(1, 2, 1)
-    plt.plot(class1[:, 0], class1[:, 1], 'rs')
-    plt.plot(class2[:, 0], class2[:, 1], 'bo')
-    plt.plot(class3[:, 0], class3[:, 1], 'go')
+    colors = plt.cm.rainbow(np.linspace(0, 1, k))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+
+    for i in range(k):
+        this_classes = Y_class[i]
+        ax1.plot(this_classes[:, 0], this_classes[:, 1], 'o', color=colors[i])
+
+    ax1.set_title('Random samples from GMMs')
+
+    for i in range(k):
+        this_classes = matY[category == i]
+        ax2.plot(this_classes[:, 0], this_classes[:, 1], 'o', color=colors[i])
+
+    ax2.set_title('EM algorithm results')
     plt.legend(loc="best")
-    plt.title("Mixture Model Clustering By EM Algorithm")
     plt.show()
 
     plt.figure()
-    #plt.subplot(1, 2, 2)
     plt.plot(loglikelihoods)
     plt.title("Log likelihood")
     plt.show()
